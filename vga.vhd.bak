@@ -1,0 +1,13 @@
+USE ieee.std_logic_arith.all;
+library lpm;
+USE lpm.lpm_components.all;
+
+entity vga is 
+port(
+	reset : in std_logic;
+	clkin : in std_logic;
+	vga_vs : out std_logic;
+	vga_hs : out std_logic;
+	
+	);
+end vga;
